@@ -1,4 +1,4 @@
-# Clases de Pogrmacion web
+# Clases de Programacion web
 
 Creado por: ACEVEDO MALDONADO JOSUE
 
