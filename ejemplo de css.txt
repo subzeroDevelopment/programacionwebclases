@@ -1,0 +1,56 @@
+ejemplo de css.txt
+
+
+
+/*atributo etiqueta*/
+/*h1,header,nav,ul,li,section,article,aside,footer,div,strong,figure,img,figcaption,a,h4*/
+a
+{
+	color: green;
+}
+
+h1
+{
+	border: 1px solid #4AC3CA;	
+	background: red;
+	margin: 100px 50px 10px 300px;
+	padding: 20px 10px 50px 100px;
+	display: inline-block;
+}
+
+/*atributo id*/
+
+#logo
+{
+	border: 10px solid #475DC9;
+	border-radius: 50%;
+}
+
+body
+{
+	font-size: 16px;
+	font-family: "quanticoregular";
+}
+/*atributo class*/
+
+.nave
+{
+	color: rgba(255,255,255,1);
+	background: rgba(8,3,3,0.61);
+	font-size: 32px;
+	outline-style: none;
+
+}
+
+header nav ul
+{
+	list-style: none; 
+}
+/*atributo usando el doom*/
+
+#seccion1 article h4
+{
+
+	color: #4199B9;
+	font-size: 26px;
+}

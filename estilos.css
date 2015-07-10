@@ -47,62 +47,126 @@
 
 }
 
-
-
-
-
-
-
-
-/*atributo etiqueta*/
-/*h1,header,nav,ul,li,section,article,aside,footer,div,strong,figure,img,figcaption,a,h4*/
-a
-{
-	color: green;
-}
-
-h1
-{
-	border: 1px solid #4AC3CA;	
-	background: red;
-	margin: 100px 50px 10px 300px;
-	padding: 20px 10px 50px 100px;
-	display: inline-block;
-}
-
-/*atributo id*/
-
-#logo
-{
-	border: 10px solid #475DC9;
-	border-radius: 50%;
-}
-
 body
 {
-	font-size: 16px;
-	font-family: "quanticoregular";
+    background: rgba(179,179,174,0.61);
+    font-size: 16px;
+    font-family: "quanticoregular";
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
-/*atributo class*/
 
-.nave
+header
 {
-	color: rgba(255,255,255,1);
-	background: rgba(8,3,3,0.61);
-	font-size: 32px;
-	outline-style: none;
+    
+    position: relative;
 
+
+}
+
+/*posisionamiento por flotacion float*/
+/*posisionamiento por posiciones relativas*/
+
+
+header figure
+{
+      
+      margin: 0px; 
+}
+
+header figure img
+{
+    height: 250px;
+    width: 100%;   
+}
+
+header hgroup 
+{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+
+}
+
+header nav
+{
+    position: absolute;
+        top: 130px;
+        left: 50px
 }
 
 header nav ul
 {
-	list-style: none; 
+
+    list-style: none;
+    
 }
-/*atributo usando el doom*/
 
-#seccion1 article h4
+header nav ul li
 {
+    display: inline-block;
+    margin-right: 1.5em;
+    padding: 0.5em;
+    border-radius: 50%;
+    background: red;
+    
+}
 
-	color: #4199B9;
-	font-size: 26px;
+
+header nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+header nav ul li a:hover
+{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+header nav ul li:hover
+{
+    background: green;
+
+}
+
+/*medias queries*/
+
+@media screen and (max-width: 400px){
+    body{
+        background: black;
+    }
+    img figure img
+    {
+        width: 2px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (min-width: 999px){
+    body{
+        background: white;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        background: #37B1C3;
+    }
+    
+}
+
+@media print{
+    body{
+        background: red;
+        font-size: 100px
+    }
 }
