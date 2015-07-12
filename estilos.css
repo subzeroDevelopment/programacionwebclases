@@ -137,6 +137,70 @@ header nav ul li:hover
 
 }
 
+section 
+{   
+    background: white;
+    background: rgba(255,255,255, 0.7);
+
+}
+
+
+#seccion1 article
+{
+
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    position: relative;
+        top: 5%;
+        bottom: 5%;
+
+    padding: 0 0.5em ;
+    
+     box-shadow: 0px 0px 10px 4px rgba(100,120,120,0.2);
+    
+}
+
+#seccion2
+{
+    position: inherit;
+}
+
+#seccion1 article:hover
+{
+
+    display: inline-block;
+    text-align: center;
+     box-shadow: 0px 0px 10px 4px rgba(100,120,120,0.2);
+     width: 25%
+}
+
+
+#seccion1 div
+{
+    position: relative;
+    left:10%;
+    right: 10%;
+}
+
+
+#seccion1 div article img
+{
+    width: 40%;
+    margin-top:  5px;
+}
+
+
+#seccion1 div article h4
+{
+    font-family: "20_dbregular";
+    font-size: 0.8em;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 4px 10px 0px rgba(0,0,0,0.2) ;
+
+}
+
+
 /*medias queries*/
 
 @media screen and (max-width: 400px){
