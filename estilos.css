@@ -197,11 +197,193 @@ section
     font-size: 0.8em;
     color: rgba(0,0,0,0.7);
     text-shadow: 4px 10px 0px rgba(0,0,0,0.2) ;
+    
+}
+
+
+#seccion2 
+{
+    background: #C6C5C5;
+    border: 1px solid red;
+   position: relative; /*lo hacemos relativo para flotar el video*/
+
+}
+
+/*coloque un id a la seccion para poder trabajarla de forma indivual*/
+
+#seccion2 article
+{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    padding-left: 8%;
+    padding-top: 0px;
+    padding-bottom: 10%;
+    margin: 0px;
+    
+    
+}
+
+#seccion2 article h4
+{
+   
+   margin-bottom: 0.7em;
+
+}
+
+#seccion2 article p
+{
+   color: #626060;
+   margin-top: 0px;
+
+}
+
+#seccion2 article div #boton
+{
+    color:white;
+    border-radius: 0 20% 20% 0px;
+    background:#1DA844;
+    border: 5px solid #1DA844;
+    position: absolute;
+
+ /*lo hice adsoluto para poder sobreponerlo sobre el input de entrada*/
+}
+
+
+#seccion2 article div #entrada
+{
+
+    background:white;
+    margin:0px;
+    border-radius:  10% 0  0 10% ;
+    padding-right: 0px;
+    border: 5px solid white;
+}
+
+
+#seccion2 article video
+{
+   
+/*le damos la dimenciones al video para que se ajuste al espacio recalculando*/
+    height: 80%;
+    width: 30%;
+    padding-top: 0px;
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    margin-bottom: 0px;
+
+}
+
+#seccion3 
+{
+
+   text-align: center;
+   font-family: Arial;
+   margin: 0px;
+   padding-top: 1em;
+   border: 1px solid rgba(255,255,255, 0.7);
+   padding-bottom: 4%;
+}
+
+
+#seccion3 article #cita
+{
+    font-size: 0.8em;
+    color: #7A7A7A;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-style: italic;
+}
+
+#seccion3 article figure figcaption
+{
+    margin-bottom: 2%;
+    font-size: 0.75em;
+}
+
+#seccion3 article figure img
+{
+    margin: 0px;
+    width: 1.7em;
+    padding: 0px;
+}
+
+
+
+#seccion3 article figure img:hover
+{
+  
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    margin: 0px;
+    width: 1.7em;
+}
+
+
+#seccion3 article h4
+{
+    margin: 0px;
+}
+
+#seccion3 article p
+{
+    font-size: 0.8em;
+    color: #7A7A7A;
+    padding-right: 17%;
+    padding-left: 17%;
+    margin-top: 0.6em;
+    margin-bottom: 1.5em;
 
 }
 
 
-/*medias queries*/
+
+#seccion3 article div div a
+{
+    text-decoration: none;
+    color: white;
+
+    margin-top: 25px;
+    margin-bottom: 150%;
+    padding: 0.5em;
+    border-radius: 50%;
+    background: #B0ADAD;
+
+}
+
+
+#seccion3 article div div a:hover
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    padding: 0.5em;
+    border-radius: 50%;
+    background: green;
+
+}
+
+footer
+{
+    background: #C6C5C5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+footer a
+{
+    
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #7A7A7A;
+    margin-left: 1em;
+
+}
+
+
+/*medias queries
 
 @media screen and (max-width: 400px){
     body{
@@ -234,3 +416,5 @@ section
         font-size: 100px
     }
 }
+
+*/
