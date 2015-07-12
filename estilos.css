@@ -204,7 +204,6 @@ section
 #seccion2 
 {
     background: #C6C5C5;
-    border: 1px solid red;
    position: relative; /*lo hacemos relativo para flotar el video*/
 
 }

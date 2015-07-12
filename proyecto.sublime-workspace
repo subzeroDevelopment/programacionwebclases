@@ -68,10 +68,10 @@
 	"buffers":
 	[
 		{
-			"file": "fuenteiconos.css",
+			"file": "estilos.css",
 			"settings":
 			{
-				"buffer_size": 1990,
+				"buffer_size": 6563,
 				"line_ending": "Windows"
 			}
 		},
@@ -130,8 +130,8 @@
 	],
 	"file_history":
 	[
-		"/D/GitHub/programacionwebclases/index.html",
 		"/D/GitHub/programacionwebclases/fuenteiconos.css",
+		"/D/GitHub/programacionwebclases/index.html",
 		"/D/GitHub/programacionwebclases/estilos.css",
 		"/C/Users/Neomatrix/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Neomatrix/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
@@ -201,31 +201,32 @@
 			[
 				{
 					"buffer": 0,
-					"file": "fuenteiconos.css",
+					"file": "estilos.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1990,
+						"buffer_size": 6563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3762,
+								3762
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3417.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -247,8 +248,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								462,
+								462
 							]
 						],
 						"settings":
@@ -257,10 +258,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -346,7 +347,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
