@@ -161,6 +161,20 @@ section
     
 }
 
+#seccion1 article:hover
+{
+
+    position: relative;
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    -ms-transform: rotate(360deg);
+
+    transition: 2s;
+    
+}
+
+
 #seccion2
 {
     position: inherit;
@@ -248,6 +262,15 @@ section
  /*lo hice adsoluto para poder sobreponerlo sobre el input de entrada*/
 }
 
+#seccion2 article div #boton:hover
+{
+    -webkit-transform:translateX(100px);
+    -moz-transform:translateX(100px);
+    -o-transform:translateX(100px);
+    -ms-transform: translateX(100px);
+
+    transition: 1s;
+}
 
 #seccion2 article div #entrada
 {
@@ -259,6 +282,18 @@ section
     border: 5px solid white;
 }
 
+#seccion2 article div #entrada:hover
+{
+   
+    -webkit-transform:scale(2,1);
+    -moz-transform:scale(2,1);
+    -o-transform:scale(2,1);
+    -ms-transform: scale(2,1);
+
+    transition: 2s;
+    
+  
+}
 
 #seccion2 article video
 {
@@ -271,6 +306,19 @@ section
     top: 5%;
     bottom: 5%;
     margin-bottom: 0px;
+
+}
+
+#seccion2 article video:hover
+{
+   
+    -webkit-transform:skew(10deg,40deg);
+    -moz-transform:skew(10deg,40deg);
+    -o-transform:skew(10deg,40deg);
+    -ms-transform:skew(10deg,40deg);
+
+    transition: 2s;
+    
 
 }
 
