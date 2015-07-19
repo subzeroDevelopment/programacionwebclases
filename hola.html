@@ -4,16 +4,32 @@
         <meta charset=utf-8>
         <meta name=viewport content=width=device-width>
         <title>Mi pagina</title>
+         <link href="hola.css" rel="stylesheet">
         <script src=js/juego.js></script>
     </head>
     <body>
-        <h1>HOLA MUNDO!!!!!!!></h1>
-        <p id="resultado"></p>
-        <section>
-            <article id="piedra" onclick="juego(0)" >piedra</article>
-            <article id="papel" onclick="juego(1)">papel</article>
-            <article id="tijeras" onclick="juego(2)">tijeras</article>
+    
+        <h3 align="right" id="resultado">[]</h3>
+
+
+ <strong id="intro">Elija personaje</strong>
+
+        <section id="elementos">
+            <article id="piedra" onclick="juego(0)"> <img src="piedra.png"> </article>
+            <article id="tijeras" onclick="juego(1)"  > <img src="tijera.png"> </article>
+            <article id="papel" onclick="juego(2)"  > <img src="papel.png"> </article>
         </section>
+
+	<section id="final"></section>
+
+	 <p id="boton" align="center" ></p>
+
+  </div>
+</div>
+
+
+
 
     </body>
 </html>
+
