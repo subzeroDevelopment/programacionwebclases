@@ -1,4 +1,9 @@
-var puntos = 0;
+var puntos = localStorage.puntos || 0;
+
+function puntoss(){
+  var resultado = document.getElementById("resultado")
+return resultado.innerHTML = "<p>"+"  "+"Score: "+puntos+" <p>";
+}
 
 
 function cargar(){
@@ -12,7 +17,7 @@ panel.innerHTML ="<article id=piedra onclick=juego(0)> <img src=piedra.png> </ar
 grafico.innerHTML =" ";
 boton.innerHTML =" ";
 intro.innerHTML="Elija personaje";
-resultado.innerHTML = "<p>Score: "+puntos+" <p>";
+
 }
 
 
@@ -34,7 +39,7 @@ var resultado = document.getElementById("resultado")
 var boton = document.getElementById("boton")
 var letrero = document.getElementById("intro")
 letrero.innerHTML = "<p></p>";
-
+resultado.innerHTML = "<p>"+"  "+"Score: "+puntos+" <p>";
 var opciones = ["piedra","tijera", "papel"];
 
 var opcionmaquina = patito(0,2);
@@ -58,6 +63,7 @@ resultado.innerHTML = "<p>[Perdiste]"+"  "+"Score: "+puntos+" <p>";
 
 }else{
 	puntos++;
+  localStorage.puntos = puntos;
 	resultado.innerHTML = "<p>[GANASTE!!]"+"  "+"Score: "+puntos+" <p>";
 
 if(opcionmaquina==1){
@@ -74,6 +80,7 @@ if(opcionUsuario > opcionmaquina){
 
 if((opcionUsuario==2)&&(opcionmaquina==0)){
 puntos++;
+localStorage.puntos = puntos;
 resultado.innerHTML = "<p>[GANASTE!!]"+"  "+"Score: "+puntos+" <p>";
 
 }else{
