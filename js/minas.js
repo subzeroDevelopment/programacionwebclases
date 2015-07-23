@@ -16,7 +16,7 @@ function  aleatorio(minimo,maximo){
 function cargaraleatorio(){
   for ( var j=0; j<minas.length; j++){
    for ( var i=0; i<minas[j].length; i++){
-      minas[j][i]= aleatorio(0,7);
+      minas[j][i]= aleatorio(0,1);
     }
  }
 }
@@ -122,7 +122,7 @@ if(puntos==total){
   resultado.innerHTML = "Score: "+puntos;
 }
 }
-} 
+}
 }
 
 
