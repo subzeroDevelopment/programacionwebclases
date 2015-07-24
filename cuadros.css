@@ -14,3 +14,25 @@ section table tr td  {
   height: 50%;
 
 }
+
+p{
+	padding-top:  : 5%;
+	padding-bottom: 5%;
+	color: #372C2C;
+	text-align: center;
+	box-shadow: 0px 0px 10px 4px rgba(100,120,120,0.2);
+}
+
+div{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 90%;
+  margin-right: 10%;
+  padding-right: 1%;
+  background: white;
+ 
+}
+
+#crono{
+	text-align: center;
+}
