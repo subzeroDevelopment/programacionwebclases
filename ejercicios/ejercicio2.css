@@ -1,0 +1,121 @@
+#titulo{
+	color: #37CFD9;
+}
+
+article p strong{
+	color: #F32323;
+}
+
+article p .destacado{
+	color: #F3E723;
+}
+
+#subtitulo{
+	color: #2235CF;
+}
+
+
+article p a {
+	color: #E9311B;
+}
+
+article p a em {
+	color: #240DF5;
+}
+
+article p .especial{
+	color: #EA11EE;
+}
+
+article caption{
+	color: #191AE3;
+}
+
+article table thead tr .especial{
+	color: #F5E211;
+}
+
+article table tbody tr .especial{
+	color: #EBD81B;
+}
+
+
+article table tbody tr td{
+	color: #38EB1B;
+}
+
+article table tbody tr td strong{
+	color: #F6FA19;
+}
+
+article table tbody tr th{
+	color: #F6321E;
+}
+
+article table tfoot tr th{
+	color: #F6321E;
+}
+
+#adicional{
+	color: #ACC062;
+}
+
+article p #especial{
+	color: #EA11EE;
+}
+
+#adicional p a {
+	color: #52B250;
+}
+
+
+
+
+article table{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
+article table tbody tr td{
+	border: 1px solid black;
+	margin: 1px;
+	padding: 0px; 
+}
+
+article table  .especial {
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
+
+article table thead tr .especial{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
+
+article table tbody tr .especial{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
+
+article table tbody tr td{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
+
+
+
+article table tbody tr th{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
+
+article table tfoot tr th{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px; 
+}
