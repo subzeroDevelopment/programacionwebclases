@@ -1,0 +1,60 @@
+h1{
+  text-align: center;
+}
+
+article{
+	border: 2px solid #111DD0;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: relative;
+}
+
+article nav ul
+{
+
+    list-style: none;
+    
+}
+
+article nav ul li
+{
+    display: inline-block;
+    margin-right: 1em;
+      
+}
+
+
+article nav ul li a
+{
+    color: #0F0606;
+}
+
+
+#noticias{
+ margin-right: 50%;
+ text-align: left;
+ margin-left: 10%;
+  border-right: 2px solid blue;
+  padding-left: 12%;
+
+}
+
+#noticias div{
+ text-align: left;
+}
+
+#anuncios{
+margin-left: 50%;
+ position: absolute;
+ text-align: left;
+ padding-left: 10%;
+}
+#anuncios div{
+ text-align: left;
+}
+
+
+div{
+	text-align: center;
+}

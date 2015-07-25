@@ -1,0 +1,75 @@
+
+body{
+  border: 1px solid #1C0E0E;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#barra{
+  border-left: 1px solid #1C0E0E;
+
+  margin-left: 75%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 1%;
+}
+
+#barra a{
+
+   text-decoration: none;
+   color: #1F0D0D;
+}
+
+#presentacion{
+   margin-top: 0px;
+   margin-bottom: 80%;
+  text-align: right;
+}
+
+#presentacion h3{
+  text-align: left;
+}
+
+#presentacion p{
+  margin-top: 20%;
+}
+
+table td div{
+  display: none;
+}
+
+table td div:target{
+  display: block;
+}
+
+table tr td h4{
+  margin-top: 20%;
+  text-align: center;
+  margin-bottom: 30%;
+  padding-left: 30%;
+}
+
+table tr td h3{
+  text-align: center;
+  padding-left: 30%;
+  margin-right: 0.1%;
+
+}
+#personal{
+  margin-bottom: 30%;
+}
+
+#personal p{
+  margin-bottom: 1%;
+  font-style: italic; 
+}
+
+#personal p strong{
+  font-weight:100; 
+  font-style: normal; 
+} 
+
+#barra a[href="#presentacion"]{
+  color: #FFFFFF;
+}
