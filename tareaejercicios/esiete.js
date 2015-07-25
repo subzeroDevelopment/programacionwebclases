@@ -1,0 +1,4 @@
+
+function ocultar(){
+$("*[href]").hide();
+}

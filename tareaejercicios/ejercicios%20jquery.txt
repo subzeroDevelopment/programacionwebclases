@@ -1,0 +1,33 @@
+1. Crear un documento HTML con un encabezado, dos párrafos y un botón. Al pulsar el botón mediante el selector $(“*”) se debe ocultar todo. Método hide()
+
+2. En el mismo documento HTML anterior. Al pulsar el botón debe ocultarse dicho botón.
+
+3. En el mismo documento HTML anterior. Suponemos que el encabezado y el primer párrafo tienen el atributo class=”intro”.Deberás ocultar al clickar el botón, dicho párrafo.
+
+4. Realiza el mismo código que en el script 3 pero ahora selecciona dicho párrafo mediante otro selector. p:first
+
+5. Selecciona el primer elemento de la primera lista y oculta dicho elemento.
+
+	Lista 1:
+●	Tortilla
+●	Jamón
+●	Queso
+Lista 2:
+■	Coca Cola
+■	Leche
+■	Té
+
+6. Oculta los primeros elementos de la lista del script 5.
+
+7. Crea un documento con un par de enlaces mediante el atributo href y oculta ambos enlaces. 
+
+8. Crea un documento con dos enlaces y dos botones. Uno se tiene que abrir en una nueva ventana (target="_blank") y el otro no. Cada botón debe ocultar uno de los enlaces en función de su atributo target.
+
+9. Crea un documento con un botón que se oculte el botón  al clickarlo.
+
+10. Crear un documento con una tabla. Poner el fondo de las filas pares en rojo (usar el método .css("background-color","red"). A continuación poner el fondo de las filas impares en verde ..css("background-color","green")
+
+
+
+
+
