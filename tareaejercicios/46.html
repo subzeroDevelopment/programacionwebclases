@@ -1,0 +1,37 @@
+<!--46. Mediante un evento asociado a un botón obtener el ancho y alto de una capa cuadrada. Visualizarlo como texto dentro del elemento div.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejercicio 46</title>
+	<link rel="stylesheet" href="">
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<style>
+		#p1{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consectetur, accusamus, molestias dolorem, fugiat tenetur asperiores provident odio porro id debitis at. Consequatur, quibusdam delectus nulla accusantium dignissimos facilis sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quam doloremque perferendis reiciendis beatae fugit a. Quod, corrupti nisi, consequuntur nobis sit laborum, ratione dolorem in consequatur maxime, tempore a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure accusamus hic officia fuga magni, libero harum autem, labore molestias minima neque ut! Facere nulla quibusdam officiis eos nisi, cum tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consequatur, porro alias obcaecati nostrum neque ea provident velit reiciendis iure tempore illo error quo amet laboriosam est architecto itaque. Veniam!</p>
+	<div>	
+	</div>
+
+	<button id="but1">Obtener</button>
+	<script type="text/javascript">
+		$("#but1").click(añadir);
+
+		function añadir(){
+				var alto=$("#p1").height();
+				var ancho=$("#p1").width();
+
+				$("div").text("la altura del parrafo es: "+alto+"px el ancho es: "+ancho+"px");
+
+				}
+	</script>
+	
+</body>
+</html>
+

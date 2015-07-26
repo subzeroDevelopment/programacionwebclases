@@ -1,0 +1,31 @@
+<!--50. Realiza el script 49 guardando la referencia a jQuery en una variable.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejercicio 50</title>
+	<link rel="stylesheet" href="">
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consectetur, accusamus, molestias dolorem, fugiat tenetur asperiores provident odio porro id debitis at. Consequatur, quibusdam delectus nulla accusantium dignissimos facilis sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+	Eius quam doloremque perferendis reiciendis beatae fugit a. Quod, corrupti nisi, consequuntur nobis sit laborum, ratione dolorem in consequatur maxime, tempore a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure accusamus hic officia fuga magni, libero harum autem, labore molestias minima neque ut! Facere nulla quibusdam officiis eos nisi, cum tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consequatur, porro alias obcaecati nostrum neque ea provident velit reiciendis iure tempore illo error quo amet laboriosam est architecto itaque. Veniam!</p>
+	<div>
+	</div>
+
+	<button id="but1">Obtener</button>
+	<script type="text/javascript">
+		$("#but1").click(añadir);
+
+		function añadir(){
+				var n=jQuery("p");
+				n.text("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet odio reiciendis aspernatur animi nesciunt sint. Officiis, obcaecati expedita ad doloremque sit, recusandae error laborum neque voluptas, laboriosam dolorum repudiandae.")
+
+				}
+	</script>
+	
+</body>
+</html>
+
