@@ -1,0 +1,45 @@
+<!--44. Tenemos un documento con 4 párrafos cada uno con un color de fondo. mediante un evento asociado a un botón devuelve mediante una alerta el color de fondo del primer párrafo.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejercicio 44</title>
+	<link rel="stylesheet" href="">
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<style>
+		#p1{
+			background: red;
+		}
+		#p2{
+			background: yellow;
+		}
+		#p3{
+			background: fuchsia;
+		}
+		#p4{
+			background: lime;
+		}
+	</style>
+</head>
+<body>
+	<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consectetur, accusamus, molestias dolorem, fugiat tenetur asperiores provident odio porro id debitis at. Consequatur, quibusdam delectus nulla accusantium dignissimos facilis sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quam doloremque perferendis reiciendis beatae fugit a. Quod, corrupti nisi, consequuntur nobis sit laborum, ratione dolorem in consequatur maxime, tempore a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure accusamus hic officia fuga magni, libero harum autem, labore molestias minima neque ut! Facere nulla quibusdam officiis eos nisi, cum tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consequatur, porro alias obcaecati nostrum neque ea provident velit reiciendis iure tempore illo error quo amet laboriosam est architecto itaque. Veniam!</p>
+
+	<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur cumque, at provident itaque tempore cupiditate fugit sint sed nesciunt laborum molestias porro, impedit inventore fuga modi numquam quis iusto eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam esse obcaecati placeat temporibus pariatur vero iusto odit maiores eligendi quas quos, nostrum similique magni officiis rem! Blanditiis at vero autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae inventore facilis, tenetur officia aliquid placeat aliquam incidunt earum eum ullam nam, quia excepturi nesciunt natus nulla facere, commodi. Ratione, porro.</p>
+
+	<p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, culpa, omnis. Ipsa, quo et, temporibus obcaecati natus rem velit corporis pariatur quod, libero sequi cum. Porro corrupti a, adipisci distinctio.</p>
+	
+	<p id="p4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus libero tempore quibusdam aliquam quo eligendi perspiciatis corrupti. Eos expedita natus porro vel, corporis corrupti est nemo, dolorem adipisci, eum cupiditate.</p>
+
+	<button id="but1">Obtener</button>
+	<script type="text/javascript">
+		$("#but1").click(añadir);
+
+		function añadir(){
+			alert($("#p1").css('background');
+				}
+	</script>
+	
+</body>
+</html>
+
