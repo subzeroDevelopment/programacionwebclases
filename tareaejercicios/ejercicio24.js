@@ -1,0 +1,9 @@
+$(document).ready(function(){
+                    $('#rectangulo').animate({
+                               'width':'550px',
+                               'height':'350',
+                               'margin-left':'400px'
+                    },1500).animate({
+                               'margin-left':'350px'
+                    },'fast');
+          });
