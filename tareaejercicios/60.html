@@ -1,0 +1,29 @@
+<!--60. Selecciona todos los elementos con el atributo href acabado en .com y a continuaciÃ³n resalta dichos elementos en amarillo-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<ul>
+		<li><a href="hola.com">nada</a></li>
+		<li><a href="facebook.com">Facebook</a></li>
+		<li><a href="google.com">Google</a></li>
+		<li><a href="twiter.com">twitter</a></li>
+		<li><a href="#">nada</a></li>
+	</ul>
+	<script type="text/javascript">
+		as=$("a");
+		for (var i = 0; i < as.length; i++) {
+			if($(as[i]).attr('href').match(".\.com"))
+			$(as[i]).css('background', 'yellow');
+		}
+
+
+	</script>
+</body>
+</html>

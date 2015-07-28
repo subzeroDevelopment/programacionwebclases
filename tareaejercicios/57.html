@@ -1,0 +1,58 @@
+<!--57. Selecciona de una tabla todas las casillas vacÃ­as y ponlas un color de fondo amarillo.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ejercicio57</title>
+	<link rel="stylesheet" href="">
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+		table{
+			border:2px solid red;
+		}
+	</style>
+</head>
+<body>
+		<table>
+			<thead>
+				<tr>
+					<th>header</th>
+					<th>hola</th>
+					<th>ahora</th>
+					<th>ahora</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>data</td>
+					<td>hola</td>
+					<td>ahora</td>
+					<td>uno</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>hola</td>
+					<td></td>
+					<td>uno</td>
+				</tr>
+			</tbody>
+		</table>
+		<script type="text/javascript">
+			arre=$("td");
+			//arre.css('background','red');
+			for (var i = 0; i < arre.length; i++) {
+				console.log(arre[i].innerText);
+				ele=arre[i];
+				if(ele.innerText==""){
+					ele=$(arre[i]);
+					ele.css({'background-color':'yellow'});
+					console.log("cambio  amrillo");	
+				}
+			}
+		</script>
+
+
+</body>
+</html>
